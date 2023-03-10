@@ -1,0 +1,87 @@
+.Login{
+    position: relative;
+    height: 100%;
+    /* background-color: url("https://imgs.search.brave.com/obzndxVvU9WrWnXGUyq2pvXRYZR8DXP4hn0kW2jXlDA/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pLmlt/Z3VyLmNvbS9kWEI1/Y2ZOLmpwZw") center no-repeat;
+    background-size: cover; */
+    background-color: rgba(0,0,0, 0.4);
+}
+
+.Login_logo{
+    position: fixed;
+    left: 0;
+    margin-top: 15px;
+    width: 150px;
+    object-fit: contain;
+    padding-left: 20px; 
+}
+
+.Login_button{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #e50914;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.Login_gradient{
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background-color: rgba(0,0,0, 0.4);
+    background-image: linear-gradient(
+        to top,
+        rgba(0,0,0, 0.8) 0,
+        rgba(0,0,0, 0) 60%,
+        rgba(0,0,0, 0.8) 100%,
+    );
+}
+
+.Login_body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+    color: #fff;
+    padding: 20px;
+  }
+  
+
+.Login_body > h1{
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+}
+
+.Login_body > h3 {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.Login_input > form > input{
+    padding: 10px;
+    outline-width: 0;
+    height: 30px;
+    width: 70%;
+    border: none;
+    max-width: 600px;
+}
+
+.Login_getStart{
+    padding: 16px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.Login_input{
+    margin: 20px;
+}

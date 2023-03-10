@@ -1,0 +1,78 @@
+.signupScreen {
+    position: relative;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .signupScreen form {
+    max-width: 400px;
+    padding: 50px;
+    background-color: rgba(0,0,0,0.75);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .signupScreen h1 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+  }
+  
+  .signupScreen input[type='email'],
+  .signupScreen input[type='password'] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  .signupScreen button[type='submit'] {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 4px;
+    border: none;
+    background-color: #e50914;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .signupScreen h4 {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+  }
+  
+  .signupScreen .signupScreen_gray {
+    color: #b3b3b3;
+  }
+  
+  .signupScreen .signupScreen_link {
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: 0.2rem;
+  }
+  
+  .signupScreen .signupScreen_link:hover {
+    color: #e50914;
+    text-decoration: none;
+  }
+  
